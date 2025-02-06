@@ -1,7 +1,7 @@
 
 function ModaStudio() {
   return (
-    <div>
+    <div style={{width:"100%"}}>
       <h1 style={{textalign:  "center", fontSize: "3rem"}}
       >This Site is Under Construction<span>&#9888;</span>....</h1>
     </div>
