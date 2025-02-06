@@ -1,4 +1,3 @@
-
 import './App.css'
 import ModaStudio from './pages/ModaStudio'
 
@@ -11,4 +10,4 @@ function App() {
   )
 }
 
-export default App
+export default App ;
