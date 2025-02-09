@@ -26,3 +26,24 @@
     transform: translateX(0) scale(2);
   }
 }
+
+@keyframes img-prank-small {
+  0% {
+    transform: translateX(-1000px) scale(1);
+  }
+
+  100% {
+    transform: translateX(0) scale(2);
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .img-prank-A {
+    width: 100%;
+    height: auto;
+
+    animation: 3s img-prank-small 1 forwards;
+  }
+}
