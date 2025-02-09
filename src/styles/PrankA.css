@@ -1,0 +1,49 @@
+
+
+.container-prank-A {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.img-prank-A {
+
+
+  animation: 3s img-prank 1;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes img-prank {
+  0% {
+    transform: translateX(-1500px) scale(1);
+  }
+
+  100% {
+    transform: translateX(0) scale(2);
+  }
+}
+
+@keyframes img-prank-small {
+  0% {
+    transform: translateX(-800px) scale(1);
+  }
+
+  100% {
+    transform: translateX(0) scale(2);
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .img-prank-A {
+    width: 100%;
+    height: auto;
+
+    animation: 2s img-prank-small 1 forwards;
+  }
+}

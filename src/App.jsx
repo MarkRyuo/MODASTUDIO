@@ -1,11 +1,11 @@
 import './App.css'
-import ModaStudio from './pages/ModaStudio'
+import PrankA from './pages/PrankA';
 
 function App() {
 
   return (
     <>
-      <ModaStudio />
+      <PrankA />
     </>
   )
 }
