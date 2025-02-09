@@ -11,7 +11,11 @@
 
 .img-prank-A {
 
+
+  animation: 5s img-prank infinite;
 }
 
 
-@keyframes img-prank
+@keyframes img-prank {
+
+}
