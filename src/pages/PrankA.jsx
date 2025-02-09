@@ -1,4 +1,4 @@
-import ''
+import '../styles/PrankA.css'
 
 function PrankA() {
   return (
