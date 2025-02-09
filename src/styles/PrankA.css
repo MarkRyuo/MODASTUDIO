@@ -29,7 +29,7 @@
 
 @keyframes img-prank-small {
   0% {
-    transform: translateX(-1000px) scale(1);
+    transform: translateX(-800px) scale(1);
   }
 
   100% {
@@ -44,6 +44,6 @@
     width: 100%;
     height: auto;
 
-    animation: 3s img-prank-small 1 forwards;
+    animation: 2s img-prank-small 1 forwards;
   }
 }
