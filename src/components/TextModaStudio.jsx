@@ -1,3 +1,5 @@
+import '../styles/components_css/textmodastudio.css'
+
 
 function TextModaStudio() {
   return (
