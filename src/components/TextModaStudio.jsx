@@ -8,4 +8,4 @@ function TextModaStudio() {
   )
 }
 
-export default TextModaStudio
+export default TextModaStudio ;
