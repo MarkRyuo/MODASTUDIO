@@ -3,7 +3,7 @@ function TextModaStudio() {
   return (
     <div>
       <p>
-        Animoda 
+        Animoda Studio 
       </p>
     </div>
   )
