@@ -1,7 +1,7 @@
 
 function TextModaStudio() {
   return (
-    <div>
+    <div className="text-moda-studio">
       <p>
         Animoda Studio 
       </p>
