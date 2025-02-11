@@ -22,7 +22,7 @@
   font-size: clamp(50px, 5vw ,100px); 
   /*? hindi na baba ng 50px, original size 5vw, hindi na tataas ng 100px */
   font-family: "Kanit", sans-serif; 
-  animation: 2s  ;
+  animation: 2s changing-colors 1 forwards;
 
 
 }
@@ -32,6 +32,26 @@
 
   0% {
     color: #fff;
-    text-shadow: 30px 9px 5px #ED3731;
+    text-shadow: 30px 40px 100px #FFDA1F;
+  }
+
+  30% {
+    color: #FFDA1F;
+    text-shadow: 30px 40px 100px #202FFE;
+  }
+
+  50% {
+    color: #202FFE;
+    text-shadow: 30px 40px 100px #ED3731;
+  }
+
+  70% {
+    color: #ED3731;
+    text-shadow: 30px 40px 100px #fff;
+  }
+
+  100% {
+    color: #fff;
+    text-shadow: 30px 40px 100px #fff;
   }
 }
