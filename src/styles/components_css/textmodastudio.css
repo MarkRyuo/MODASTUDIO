@@ -22,4 +22,15 @@
   font-size: clamp(50px, 5vw ,100px); 
   /*? hindi na baba ng 50px, original size 5vw, hindi na tataas ng 100px */
   font-family: "Kanit", sans-serif; 
+  animation: 2s  ;
+
+
+}
+
+
+@keyframes changing-colors {
+
+  0% {
+    color: #fff;
+  }
 }
