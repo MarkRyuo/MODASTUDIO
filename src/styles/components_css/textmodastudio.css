@@ -18,6 +18,6 @@
 }
 
 .text-moda-studio p {
-  font-size: var(--font-moda-studio-size-large);
+  font-size: clamp(50px, 5vw ,100px);
   font-family: "Kanit", sans-serif; 
 }
