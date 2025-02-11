@@ -23,9 +23,9 @@
   /*? hindi na baba ng 50px, original size 5vw, hindi na tataas ng 100px */
   font-family: "Kanit", sans-serif; 
   animation: 
-  2s scale-text 1 forwards,
-  3s changing-colors 1 forwards,
-  5s flicker infinite 3s 
+  5s scale-text 1 forwards,
+  5s changing-colors 1 forwards,
+  3s flicker infinite 5s 
   
   ;
 ;
