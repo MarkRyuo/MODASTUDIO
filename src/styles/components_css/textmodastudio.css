@@ -1,15 +1,15 @@
 
 
 :root {
-  --text-moda-studio-color: #0000 ;
+  --text-moda-studio-color: #fff ;
 }
 
 .text-moda-studio {
 
   display: flex;
-  background-color: var(--text-moda-studio-color);
+  background-color: var(--text-moda-studio-color);  
 }
 
 .text-moda-studio p {
-  
+
 }
