@@ -19,6 +19,7 @@
 
 .text-moda-studio p {
   /* ? clamp(min, ideal, max) */
-  font-size: clamp(50px, 5vw ,100px); /*? hindi na baba ng 50px, original size 5vw, hindi na tataas ng 100px */
+  font-size: clamp(50px, 5vw ,100px); 
+  /*? hindi na baba ng 50px, original size 5vw, hindi na tataas ng 100px */
   font-family: "Kanit", sans-serif; 
 }
