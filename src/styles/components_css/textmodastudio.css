@@ -48,6 +48,24 @@
   }
 }
 
+@keyframes scale-text-small-screen {
+  0% {
+    transform: scale(0.2);
+    letter-spacing: 50px;
+  }
+
+  50% {
+    transform: scale(1.5);
+    letter-spacing: 20px;
+  }
+
+  100% {
+    transform: scale(1);
+    letter-spacing: 5px;
+  }
+}
+
+
 
 @keyframes changing-colors {
 
