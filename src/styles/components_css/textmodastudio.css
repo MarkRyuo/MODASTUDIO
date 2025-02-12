@@ -19,8 +19,8 @@
   font-weight: 700;
 
   animation: 
-  5s scale-text 1 forwards,
-  5s changing-colors 1 forwards,
+  5s scale-text 1 ease-in-out forwards,
+  5s changing-colors 1 ease-in forwards,
   3s flicker infinite 5s 
   
   ;
