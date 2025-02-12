@@ -22,6 +22,19 @@
   --clr-blue: #202FFE ;
   --clr-red: #ED3731 ;
 
+  /** Color - Green*/
+
+  --clr-green-50: #e9fbf0;
+  --color-green-100: #cff7de;
+  --color-green-200: #9fefbc;
+  --color-green-300: #6fe69b;
+  --color-green-400: #40de7a;
+  --color-green-500: #22c55e;
+  --color-green-600: #1b9d4b;
+  --color-green-700: #147538;
+  --color-green-800: #0d4e25;
+  --color-green-900: #072713;
+  --color-green-950: #04160a;
 }
 
 
