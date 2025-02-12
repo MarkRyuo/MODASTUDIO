@@ -72,8 +72,8 @@
   }
 
   100% {
-    color: var();
-    text-shadow: 30px 40px 100px #fff;
+    color: var(--clr-white);
+    text-shadow: 30px 40px 100px var(-);
   }
 }
 
