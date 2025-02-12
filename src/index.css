@@ -24,7 +24,7 @@
 
   /** Color - Green*/
 
-  --clr-green-50: #e9fbf0;
+  --clr-green-50: #e9fbf0; /*? Lightest  */
   --clr-green-100: #cff7de;
   --clr-green-200: #9fefbc;
   --clr-green-300: #6fe69b;
@@ -34,7 +34,7 @@
   --clr-green-700: #147538;
   --clr-green-800: #0d4e25;
   --clr-green-900: #072713;
-  --clr-green-950: #04160a;
+  --clr-green-950: #04160a; /*? Darkest */
 }
 
 
