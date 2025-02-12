@@ -1,11 +1,11 @@
 import './App.css'
-import PrankA from './pages/PrankA';
+import TextModaStudio from './components/TextModaStudio';
 
 function App() {
 
   return (
     <>
-      <PrankA />
+      <TextModaStudio />
     </>
   )
 }
