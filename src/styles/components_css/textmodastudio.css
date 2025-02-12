@@ -8,7 +8,7 @@
   width: 100%;
   height: 100vh;
   background-color: var(--clr-black);
-  color: var(--clr);  
+  color: var(--clr-white);  
 }
 
 .text-moda-studio > p {
