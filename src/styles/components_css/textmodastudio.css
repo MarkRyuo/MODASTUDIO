@@ -63,11 +63,11 @@
 
   50% {
     color: var(--clr-blue-500);
-    text-shadow: 30px 40px 100px var(--clr-red);
+    text-shadow: 30px 40px 100px var(--clr-red-500);
   }
 
   70% {
-    color: var(--clr-red);
+    color: var(--clr-red-500);
     text-shadow: 30px 40px 100px var(--clr-white);
   }
 
