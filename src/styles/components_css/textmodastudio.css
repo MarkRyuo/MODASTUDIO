@@ -11,7 +11,7 @@
   color: var(--text-moda-studio-color);  
 }
 
-.text-moda-studio p {
+.text-moda-studio > p {
   /* ? clamp(min, ideal, max) */
   font-size: clamp(30px, 4vw ,100px); 
   /*? hindi na baba ng 50px, original size 5vw, hindi na tataas ng 100px */
