@@ -53,11 +53,11 @@
 
   0% {
     color: var(--clr-white);
-    text-shadow: 30px 40px 100px #FFDA1F;
+    text-shadow: 30px 40px 100px var(--clr-yellow);
   }
 
   30% {
-    color: var();
+    color: var(--clr-yellow);
     text-shadow: 30px 40px 100px var(--clr-blue);
   }
 
