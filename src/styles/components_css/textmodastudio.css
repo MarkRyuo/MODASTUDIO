@@ -1,11 +1,5 @@
 
 
-:root {
-  --text-moda-studio-color: #fff ;
-  --bg-moda-studio-color: #000 ;
-  --font-moda-studio-size-large: 5rem ;
-}
-
 .text-moda-studio {
 
   display: flex;
