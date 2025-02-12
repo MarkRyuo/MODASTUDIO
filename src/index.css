@@ -24,7 +24,7 @@
 
   /** Color - Red*/
 
-  --clr-Red-50: #ffe5e5;
+  --clr-Red-50: #ffe5e5; /*? Lightest */
   --clr-Red-100: #ffcccc;
   --clr-Red-200: #ff9999;
   --clr-Red-300: #ff6666;
@@ -34,7 +34,7 @@
   --clr-Red-700: #990000;
   --clr-Red-800: #660000;
   --clr-Red-900: #330000;
-  --clr-Red-950: #190000;
+  --clr-Red-950: #190000; /*? Darkest */
 
   /** Color - Green*/
 
