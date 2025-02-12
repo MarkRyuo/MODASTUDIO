@@ -58,16 +58,16 @@
 
   30% {
     color: var(--clr-yellow);
-    text-shadow: 30px 40px 100px var(--clr-blue-500);
+    text-shadow: 30px 40px 100px var(--clr-Blue-500);
   }
 
   50% {
-    color: var(--clr-blue-500);
-    text-shadow: 30px 40px 100px var(--clr-red-500);
+    color: var(--clr-Blue-500);
+    text-shadow: 30px 40px 100px var(--clr-Red-500);
   }
 
   70% {
-    color: var(--clr-red-500);
+    color: var(--clr-Red-500);
     text-shadow: 30px 40px 100px var(--clr-white);
   }
 
