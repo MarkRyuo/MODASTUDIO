@@ -17,9 +17,10 @@
   
   --text-moda-studio-color: #fff ;
   --bg-moda-studio-color: #000 ;
-  --font-moda-studio-size-large: 5rem ;
 
-  
+  /** Effects - @keyframes changing-colors  */
+  --text-clr-white: #fff ;
+  --text-clr-yellow:  
 }
 
 
