@@ -57,12 +57,12 @@
   }
 
   30% {
-    color: #FFDA1F;
-    text-shadow: 30px 40px 100px #202FFE;
+    color: var();
+    text-shadow: 30px 40px 100px var(--clr-blue);
   }
 
   50% {
-    color: var();
+    color: var(--clr-blue);
     text-shadow: 30px 40px 100px var(--clr-red);
   }
 
