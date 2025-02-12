@@ -58,7 +58,7 @@
 
   30% {
     color: var(--clr-yellow);
-    text-shadow: 30px 40px 100px var(--clr-blue);
+    text-shadow: 30px 40px 100px var(--clr-blue-500);
   }
 
   50% {
