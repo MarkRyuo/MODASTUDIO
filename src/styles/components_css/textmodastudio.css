@@ -156,5 +156,13 @@
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
-  
+  .text-moda-studio > p {
+
+    animation: 
+      5s scale-text-small-screen 1 ease-in-out forwards,
+      5s changing-colors 1 ease-in forwards,
+      3s flicker infinite 5s 
+      ;
+      
+    }
 }
