@@ -17,7 +17,7 @@
   /*? hindi na baba ng 50px, original size 5vw, hindi na tataas ng 100px */
   font-family: "Spectral", serif;
   font-weight: 700;
-   
+
   animation: 
   5s scale-text 1 forwards,
   5s changing-colors 1 forwards,
@@ -52,7 +52,7 @@
 @keyframes changing-colors {
 
   0% {
-    color: #fff;
+    color: var(--clr-white);
     text-shadow: 30px 40px 100px #FFDA1F;
   }
 
