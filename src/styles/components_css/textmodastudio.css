@@ -63,7 +63,7 @@
 
   50% {
     color: #202FFE;
-    text-shadow: 30px 40px 100px #ED3731;
+    text-shadow: 30px 40px 100px var(--clr-red);
   }
 
   70% {
