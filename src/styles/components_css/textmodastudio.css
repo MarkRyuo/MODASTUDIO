@@ -21,7 +21,7 @@
   /* ? clamp(min, ideal, max) */
   font-size: clamp(30px, 4vw ,100px); 
   /*? hindi na baba ng 50px, original size 5vw, hindi na tataas ng 100px */
-  font-family: "Poppins", serif;
+  font-family: "Spect", serif;
   font-weight: 700; 
   font-style: italic;
   animation: 
