@@ -1,10 +1,76 @@
+/* ! Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); /* ? Roboto */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /*? Poppins*/
+
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /*? Kanit*/
 
-* {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');  /* ? Indie Flower, serif */
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); /*? Spectral, serif */
+
+/*! End of Fonts  */
+
+
+:root {
+
+  /** Colors */
+  --clr-black: #000;
+  --clr-white: #fff ;
+  --clr-yellow: #FFDA1F ;
+
+  /** Color - Red*/
+
+  --clr-Red-50: #ffe5e5; /*? Lightest */
+  --clr-Red-100: #ffcccc;
+  --clr-Red-200: #ff9999;
+  --clr-Red-300: #ff6666;
+  --clr-Red-400: #ff3333;
+  --clr-Red-500: #ff0000; /*? Normal */
+  --clr-Red-600: #cc0000;
+  --clr-Red-700: #990000;
+  --clr-Red-800: #660000;
+  --clr-Red-900: #330000;
+  --clr-Red-950: #190000; /*? Darkest */
+
+  /** Color - Green*/
+
+  --clr-Green-50: #e9fbf0; /*? Lightest */
+  --clr-Green-100: #cff7de;
+  --clr-Green-200: #9fefbc;
+  --clr-Green-300: #6fe69b;
+  --clr-Green-400: #40de7a;
+  --clr-Green-500: #22c55e; /*? Normal */
+  --clr-Green-600: #1b9d4b;
+  --clr-Green-700: #147538;
+  --clr-Green-800: #0d4e25;
+  --clr-Green-900: #072713;
+  --clr-Green-950: #04160a; /*? Darkest *
+
+  /** Color - Blue*/
+
+  --clr-Blue-50: #e5e5ff; /*? Lightest */
+  --clr-Blue-100: #ccccff;
+  --clr-Blue-200: #9999ff;
+  --clr-Blue-300: #6666ff;
+  --clr-Blue-400: #3333ff;
+  --clr-Blue-500: #0000ff; /*? Normal */
+  --clr-Blue-600: #0000cc;
+  --clr-Blue-700: #000099;
+  --clr-Blue-800: #000066;
+  --clr-Blue-900: #000033;
+  --clr-Blue-950: #000019; /*? Darkest */
+
 }
 
+
+
+* {
+  
+  font-family: "Roboto", sans-serif; /** Normal font for all elements */
+  font-size: 400; 
+  margin: 0;
+  padding: 0;
+
+}

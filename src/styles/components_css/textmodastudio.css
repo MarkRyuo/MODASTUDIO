@@ -1,11 +1,5 @@
 
 
-:root {
-  --text-moda-studio-color: #fff ;
-  --bg-moda-studio-color: #000 ;
-  --font-moda-studio-size-large: 5rem ;
-}
-
 .text-moda-studio {
 
   display: flex;
@@ -13,18 +7,20 @@
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: var(--bg-moda-studio-color);
-  color: var(--text-moda-studio-color);  
+  background-color: var(--clr-black);
+  color: var(--clr-white);  
 }
 
-.text-moda-studio p {
+.text-moda-studio > p {
   /* ? clamp(min, ideal, max) */
   font-size: clamp(30px, 4vw ,100px); 
   /*? hindi na baba ng 50px, original size 5vw, hindi na tataas ng 100px */
-  font-family: "Kanit", sans-serif; 
+  font-family: "Spectral", serif;
+  font-weight: 700;
+
   animation: 
-  5s scale-text 1 forwards,
-  5s changing-colors 1 forwards,
+  5s scale-text 1 ease-in-out forwards,
+  5s changing-colors 1 ease-in forwards,
   3s flicker infinite 5s 
   
   ;
@@ -52,32 +48,50 @@
   }
 }
 
+@keyframes scale-text-small-screen {
+  0% {
+    transform: scale(0.1);
+    letter-spacing: 15px;
+  }
+
+  50% {
+    transform: scale(1.2);
+    letter-spacing: 10px;
+  }
+
+  100% {
+    transform: scale(1);
+    letter-spacing: 5px;
+  }
+}
+
+
 
 @keyframes changing-colors {
 
   0% {
-    color: #fff;
-    text-shadow: 30px 40px 100px #FFDA1F;
+    color: var(--clr-white);
+    text-shadow: 30px 40px 100px var(--clr-yellow);
   }
 
   30% {
-    color: #FFDA1F;
-    text-shadow: 30px 40px 100px #202FFE;
+    color: var(--clr-yellow);
+    text-shadow: 30px 40px 100px var(--clr-Blue-500);
   }
 
   50% {
-    color: #202FFE;
-    text-shadow: 30px 40px 100px #ED3731;
+    color: var(--clr-Blue-500);
+    text-shadow: 30px 40px 100px var(--clr-Red-500);
   }
 
   70% {
-    color: #ED3731;
-    text-shadow: 30px 40px 100px #fff;
+    color: var(--clr-Red-500);
+    text-shadow: 30px 40px 100px var(--clr-white);
   }
 
   100% {
-    color: #fff;
-    text-shadow: 30px 40px 100px #fff;
+    color: var(--clr-white);
+    text-shadow: 30px 40px 100px var(--clr-white);
   }
 }
 
@@ -129,10 +143,26 @@
 
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
+  .text-moda-studio > p {
 
+  animation: 
+    5s scale-text-small-screen 1 ease-in-out forwards,
+    5s changing-colors 1 ease-in forwards,
+    3s flicker infinite 5s 
+    ;
+    
+  }
 }
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
-  
+  .text-moda-studio > p {
+
+    animation: 
+      5s scale-text-small-screen 1 ease-in-out forwards,
+      5s changing-colors 1 ease-in forwards,
+      3s flicker infinite 5s 
+      ;
+      
+    }
 }
