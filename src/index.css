@@ -50,6 +50,20 @@
   --clr-green-900: #072713;
   --clr-green-950: #04160a; /*? Darkest *
 
+  /** Color - Blue*/
+
+  --clr-Blue-50: #e5e5ff;
+  --clr-Blue-100: #ccccff;
+  --clr-Blue-200: #9999ff;
+  --clr-Blue-300: #6666ff;
+  --clr-Blue-400: #3333ff;
+  --clr-Blue-500: #0000ff;
+  --clr-Blue-600: #0000cc;
+  --clr-Blue-700: #000099;
+  --clr-Blue-800: #000066;
+  --clr-Blue-900: #000033;
+  --clr-Blue-950: #000019;
+
 }
 
 
