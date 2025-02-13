@@ -62,8 +62,18 @@
   --clr-Blue-900: #000033;
   --clr-Blue-950: #000019; /*? Darkest */
 
-}
 
+  /** Color - Black  */
+
+  --color-Black-50: #e6e6e6;
+  --color-Black-100: #cccccc;
+  --color-Black-200: #999999;
+  --color-Black-300: #666666;
+  --color-Black-400: #333333;
+  --color-Black-500: #000000;
+
+  
+}
 
 
 * {
